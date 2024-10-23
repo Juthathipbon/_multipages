@@ -1,0 +1,41 @@
+.animation-container{
+          border: 1px solid lightgray;
+          border-radius: 10px;
+          height: 600px;
+          margin-left: 0.5rem;
+          margin-right: 0.5rem;
+}
+
+.animation{
+          margin: 3rem auto;
+          width: fit-content;
+          border: 1px solid lightgray;
+          border-radius: 5px;
+}
+
+#field{
+          border-radius: 5px;
+          margin: 10px;
+          background-image: url('../../assets/wood2.jpg');
+          background-position: center;
+
+          height: 400px;
+          width: 700px;
+}
+
+#control{
+          margin: 10px;
+          /* border: 1px solid blue; */
+}
+
+#ball{
+          /* border: 1px solid green; */
+          border-radius: 50%;
+          background-color: aliceblue;
+          position: relative;
+          background-size: cover;
+          height: 50px;
+          width: 50px;
+          /* left: calc((width - diameter - border));
+          top: calc((height - diameter - border)); */
+}
